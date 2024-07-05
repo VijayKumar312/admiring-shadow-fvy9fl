@@ -1,0 +1,22 @@
+.tab {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+.tab.active {
+  background-color: #ddd;
+}
+.products-container div {
+  margin: 10px;
+}
+.products-container {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+}
+.products-container img {
+  max-height: 20rem;
+}
